@@ -20,7 +20,7 @@
 .logo {
     background-image:url("vibe&\ flow..png") ;
     background-size: cover;
-    height: 50px;
+    height: 80px;
     width: 100%;
    
 }
@@ -140,12 +140,14 @@ margin-left: 15px;
 
 /**hero-section**/
 .hero-section{
-    height:350px;
-    background-image: url("dre.jpg");
-    background-size: cover;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: flex-end;
+    /* height: 60vh; */
+    width: 100%;
+}
+.hero-section img{
 }
 
 .hero-msg{
